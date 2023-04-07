@@ -4,6 +4,8 @@ import About from './About';
 import Experience from './Experience';
 import Reference from './Reference';
 
+import '../styles/right.css';
+
 class Right extends Component {
   constructor() {
     super();
@@ -59,7 +61,7 @@ class Right extends Component {
     const { about, experience, reference } = this.state;
 
     return (
-      <div>
+      <div id="right">
         <About about={about} />
         <Experience experience={experience} />
         <Reference reference={reference} />

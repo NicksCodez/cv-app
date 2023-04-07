@@ -1,0 +1,6 @@
+#right {
+  flex-grow: 4;
+  padding: 2rem;
+  font-weight: bold;
+  color: var(--right-gray-text);
+}

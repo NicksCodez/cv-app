@@ -1,0 +1,19 @@
+:root {
+  --text-left-color: #ebecee;
+  --right-black-text: #2e3a47;
+  --right-gray-text: #949494;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  height: 100%;
+  width: 50vw;
+}

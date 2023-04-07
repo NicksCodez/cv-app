@@ -5,10 +5,13 @@ class Language extends Component {
     const { language } = this.props;
 
     return (
-      <div>
-        {language.map((item) => (
-          <div key={item.id}>{item.lang}</div>
-        ))}
+      <div id="expertise">
+        <div className="left-category">Language</div>
+        <div className="wrapper">
+          {language.map((item) => (
+            <div key={item.id}>{item.lang}</div>
+          ))}
+        </div>
       </div>
     );
   }

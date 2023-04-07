@@ -5,18 +5,21 @@ class Contact extends Component {
     const { phone, email, address } = this.props;
 
     return (
-      <div>
+      <div id="contact">
+        <div className="left-category">Contact</div>
         <div className="wrapper">
-          <div>Phone</div>
-          <div>{phone}</div>
-        </div>
-        <div className="wrapper">
-          <div>Email</div>
-          <div>{email}</div>
-        </div>
-        <div className="wrapper">
-          <div>Address</div>
-          <div>{address}</div>
+          <div className="contact-item">
+            <div className="contact-item-title">Phone</div>
+            <div>{phone}</div>
+          </div>
+          <div className="contact-item">
+            <div className="contact-item-title">Email</div>
+            <div>{email}</div>
+          </div>
+          <div className="contact-item">
+            <div className="contact-item-title">Address</div>
+            <div>{address}</div>
+          </div>
         </div>
       </div>
     );

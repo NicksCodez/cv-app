@@ -7,6 +7,8 @@ import Education from './Education';
 import Expertise from './Expertise';
 import Language from './Language';
 
+import '../styles/left.css';
+
 class Left extends Component {
   constructor() {
     super();
@@ -72,7 +74,7 @@ class Left extends Component {
     const { picture, phone, email, address, education, expertise, language } =
       this.state;
     return (
-      <div>
+      <div id="left">
         <Picture picture={picture} />
         <Contact phone={phone} email={email} address={address} />
         <Education education={education} />
