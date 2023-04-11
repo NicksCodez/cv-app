@@ -5,7 +5,7 @@ class About extends Component {
     const { about } = this.props;
 
     return (
-      <div>
+      <div id="about">
         <div id="name">{about.name}</div>
         <div id="position">{about.position}</div>
         <div id="description">{about.description}</div>
