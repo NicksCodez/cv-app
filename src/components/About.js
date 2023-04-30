@@ -78,6 +78,7 @@ class About extends Component {
     } = this.state;
     if (!isEditing) {
       return (
+        // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions
         <div id="about" onClick={this.editElement}>
           <div id="name">{name}</div>
           <div id="position">{position}</div>

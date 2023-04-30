@@ -112,3 +112,20 @@ button {
 .form-wrapper {
   position: relative;
 }
+
+.experience-form-wrapper {
+  position: relative;
+}
+
+.experience-form-wrapper > form > .right-form-buttons {
+  right: -12rem;
+}
+
+.right-list-add {
+  opacity: 0;
+}
+
+.wrapper:hover > .left-list-add,
+#experience:hover > .experience-items > .right-list-add {
+  opacity: 1;
+}

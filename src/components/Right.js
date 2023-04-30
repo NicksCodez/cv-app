@@ -10,29 +10,6 @@ class Right extends Component {
   constructor() {
     super();
     this.state = {
-      experience: [
-        {
-          id: uniqid(),
-          period: '2008',
-          company: 'Superior MasterBrain',
-          position: 'Book Uni',
-          description: 'working hard or hardly working',
-        },
-        {
-          id: uniqid(),
-          period: '2008',
-          company: 'Superior MasterBrain',
-          position: 'Book Uni',
-          description: 'working hard or hardly working',
-        },
-        {
-          id: uniqid(),
-          period: '2008',
-          company: 'Superior MasterBrain',
-          position: 'Book Uni',
-          description: 'working hard or hardly working',
-        },
-      ],
       reference: [
         {
           id: uniqid(),
