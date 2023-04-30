@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import uniqid from 'uniqid';
 import ProfilePicture from '../images/blank-profile-picture-973460.svg';
 import Picture from './Picture';
 import Contact from './Contact';
@@ -14,16 +13,6 @@ class Left extends Component {
     super();
     this.state = {
       picture: ProfilePicture,
-      language: [
-        {
-          id: uniqid(),
-          lang: 'English',
-        },
-        {
-          id: uniqid(),
-          lang: 'Espanol',
-        },
-      ],
     };
   }
 

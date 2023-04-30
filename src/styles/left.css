@@ -87,11 +87,11 @@ button {
 
 .form-buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
   position: absolute;
-  right: -4.2rem;
-  top: 10%;
+  top: calc(50% - 1rem);
+  right: -7.2rem;
 }
 
 .left-list-add {
@@ -105,10 +105,19 @@ button {
 }
 
 .education-item-form,
-.expertise-item-form {
+.expertise-item-form,
+.language-item-form {
   position: relative;
 }
 
+.education-item-form > form > .form-buttons {
+  right: -10.2rem;
+}
+
 .expertise-item-form > form > .form-buttons {
-  right: -5.2rem;
+  right: -11.2rem;
+}
+
+.language-item-form > form > .form-buttons {
+  right: -10.2rem;
 }
