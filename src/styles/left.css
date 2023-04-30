@@ -99,10 +99,16 @@ button {
   opacity: 0;
 }
 
-.wrapper:hover > .left-list-add {
+.wrapper:hover > .left-list-add,
+#expertise:hover > .wrapper > .left-list-add {
   opacity: 1;
 }
 
-.education-item-form {
+.education-item-form,
+.expertise-item-form {
   position: relative;
+}
+
+.expertise-item-form > form > .form-buttons {
+  right: -5.2rem;
 }

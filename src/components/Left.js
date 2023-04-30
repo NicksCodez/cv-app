@@ -14,32 +14,6 @@ class Left extends Component {
     super();
     this.state = {
       picture: ProfilePicture,
-      expertise: [
-        {
-          id: uniqid(),
-          skill: 'UI/UX',
-        },
-        {
-          id: uniqid(),
-          skill: 'Visual Design',
-        },
-        {
-          id: uniqid(),
-          skill: 'Wireframes',
-        },
-        {
-          id: uniqid(),
-          skill: 'Storyboards',
-        },
-        {
-          id: uniqid(),
-          skill: 'User Flows',
-        },
-        {
-          id: uniqid(),
-          skill: 'Process Flows',
-        },
-      ],
       language: [
         {
           id: uniqid(),
