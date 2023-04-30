@@ -20,7 +20,7 @@ class Left extends Component {
     const { picture, education, expertise, language } = this.state;
     return (
       <div id="left">
-        <Picture picture={picture} />
+        {/* <Picture picture={picture} /> */}
         <Contact />
         <Education education={education} />
         <Expertise expertise={expertise} />
