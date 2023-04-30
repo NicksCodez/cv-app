@@ -65,3 +65,50 @@
   gap: 0.4rem;
   margin-right: 0.4rem;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+input[type='text'].right-input {
+  border: 2px solid black;
+}
+
+.right-label {
+  color: black;
+}
+
+textarea {
+  max-height: 15rem;
+}
+button {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.right-form-buttons > button {
+  border-radius: 50%;
+  border: 1px solid var(--right-gray-text);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-form-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  position: absolute;
+  top: calc(50% - 1rem);
+  right: -7.2rem;
+}
+
+.form-wrapper {
+  position: relative;
+}

@@ -8,6 +8,12 @@
   color: var(--text-left-color);
 }
 
+input[type='text'] {
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
 .left-profile-picture {
   max-width: 10rem;
   border-radius: 50%;

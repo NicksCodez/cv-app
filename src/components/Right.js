@@ -10,11 +10,6 @@ class Right extends Component {
   constructor() {
     super();
     this.state = {
-      about: {
-        name: 'John Doe',
-        position: 'Professional Slacker',
-        description: 'Best employee you will ever have, period.',
-      },
       experience: [
         {
           id: uniqid(),
@@ -58,11 +53,11 @@ class Right extends Component {
   }
 
   render() {
-    const { about, experience, reference } = this.state;
+    const { experience, reference } = this.state;
 
     return (
       <div id="right">
-        <About about={about} />
+        <About />
         <Experience experience={experience} />
         <Reference reference={reference} />
       </div>
