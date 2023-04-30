@@ -9,3 +9,9 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+input[type='text'] {
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  border: none;
+}

@@ -14,23 +14,6 @@ class Left extends Component {
     super();
     this.state = {
       picture: ProfilePicture,
-      phone: '555-1234',
-      email: 'someone@org.com',
-      address: 'Fun Blvd',
-      education: [
-        {
-          id: uniqid(),
-          year: '2008',
-          degree: 'Superior MasterBrain',
-          university: 'Book Uni',
-        },
-        {
-          id: uniqid(),
-          year: '2008',
-          degree: 'Superior MasterBrain',
-          university: 'Book Uni',
-        },
-      ],
       expertise: [
         {
           id: uniqid(),
@@ -71,12 +54,11 @@ class Left extends Component {
   }
 
   render() {
-    const { picture, phone, email, address, education, expertise, language } =
-      this.state;
+    const { picture, education, expertise, language } = this.state;
     return (
       <div id="left">
         <Picture picture={picture} />
-        <Contact phone={phone} email={email} address={address} />
+        <Contact />
         <Education education={education} />
         <Expertise expertise={expertise} />
         <Language language={language} />

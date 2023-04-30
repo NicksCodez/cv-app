@@ -63,4 +63,5 @@
 .reference-items > .wrapper {
   justify-content: flex-start;
   gap: 0.4rem;
+  margin-right: 0.4rem;
 }

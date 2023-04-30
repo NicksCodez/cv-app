@@ -5,7 +5,7 @@ class Language extends Component {
     const { language } = this.props;
 
     return (
-      <div id="expertise">
+      <div id="language">
         <div className="left-category">Language</div>
         <div className="wrapper">
           {language.map((item) => (
