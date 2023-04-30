@@ -113,7 +113,8 @@ button {
   position: relative;
 }
 
-.experience-form-wrapper {
+.experience-form-wrapper,
+.reference-form-wrapper {
   position: relative;
 }
 
@@ -121,11 +122,16 @@ button {
   right: -12rem;
 }
 
+.reference-form-wrapper > form > .right-form-buttons {
+  right: -14rem;
+}
+
 .right-list-add {
   opacity: 0;
 }
 
 .wrapper:hover > .left-list-add,
-#experience:hover > .experience-items > .right-list-add {
+#experience:hover > .experience-items > .right-list-add,
+.reference-items:hover > .right-list-add {
   opacity: 1;
 }
